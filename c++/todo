@@ -1,0 +1,28 @@
+- CashIn to factor points not fish per distance
+- check ScareFoFish is working
+- SeekDenseFish to factor other drone
+- SeekDenseFish to factor cached but not saved x0.25
+- Add SeekDensePoints Strategy
+- try different CashIn thresholds
+- try different EscapeMonsterDistance thresholds
+- try different 360 divisions, currently 12
+- GoLow to optimise the X axis based on radar monsters + ScareFish
+- general my drone repel
+- try increasing last_seen > 4
+- velocity for monsters - rather than isStationary
+- velocity for monsters - direction
+
+
+
+182 EscapeMonster 360 @ 4
+182 EscapeMonster 360 @ 8
+206 EscapeMonster 360 @ 12
+
+
+
+175 (0 and 1)
+233 (0, 0.5 and 1)
+
+
+316=3 bestMove=5 monster=-1
+350=6 bestMove=3 monster=-1
